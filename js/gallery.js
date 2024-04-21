@@ -87,8 +87,6 @@ const galleryMarkup = images.reduce(
 
 gallery.insertAdjacentHTML('afterbegin', galleryMarkup);
 
-const galleryLinks = document.querySelectorAll('.gallery-link');
-
 gallery.addEventListener('click', function (event) {
   event.preventDefault();
 
